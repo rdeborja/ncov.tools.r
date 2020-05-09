@@ -1,0 +1,11 @@
+Package: ncov.tools.r
+Type: Package
+Title: ncov.tools.r
+Version: 0.1.0
+Author: Richard J. de Borja and Jared Simpson
+Maintainer: <richard.deborja@oicr.on.ca> <jared.simpson@oicr.on.ca>
+Description: A R package for handling plots for data analysis of COVID-19
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4), ggtree, ape, tidyr, tidyverse, tibble, readr, stringr
