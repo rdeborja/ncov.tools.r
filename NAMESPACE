@@ -1,1 +1,10 @@
 exportPattern("^[[:alpha:]]+")
+
+export(
+  "create_covariate_bar",
+  "create_tree",
+  "get_ct_range",
+  "get_sample_order_from_tree",
+  "plot_snp_heatmap",
+  "scale_y_tree"
+)
