@@ -1,4 +1,7 @@
-plot_snp_heatmap <- function(alleles=NULL, tip.order=NULL, nucleotides=c("A", "C", "G", "T", "N"), colors=c("blue", "red", "green3", "purple3", "lightgrey")) {
+plot_snp_heatmap <- function(alleles=NULL,
+                             tip.order=NULL,
+                             nucleotides=c("A", "C", "G", "T", "N"),
+                             colors=c("blue", "red", "green3", "purple3", "lightgrey")) {
   if (is.null(alleles)) stop("Missing alleles dataframe")
   if (is.null(tip.order)) stop("Missing tip.order is missing")
 

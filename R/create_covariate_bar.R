@@ -1,4 +1,7 @@
-create_covariate_bar <- function(data=NULL, order=NULL, plot_margin=c(0.5, 0.5, 0.5, 0.5), units="mm") {
+create_covariate_bar <- function(data=NULL,
+                                 order=NULL,
+                                 plot_margin=c(0.5, 0.5, 0.5, 0.5),
+                                 units="mm") {
   if (is.null(data)) stop("Mandatory argument data is missing")
   if (is.null(order)) stop("Mandatory argument order is missing")
 
